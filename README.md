@@ -8,7 +8,7 @@ when started:
 2) press button again to start taking photos
 3) press button to stop
 4) you can repeat to steps 2+3
-5) press and hold button to reset time
+5) press and hold button reset time
 
 copy files to computer and create your own timelapse video
 
