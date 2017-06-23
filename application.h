@@ -13,7 +13,7 @@ typedef enum {
 
 // LED pulse definition
 const int LED_SHORT_PULSE = 100;
-const int LED_LONG_PULSE = 500;
+const int LED_LONG_PULSE = 1000;
 
 // remote control PINs used to manage camera
 const bc_gpio_channel_t TL_PIN_FOCUS = BC_GPIO_P0;
