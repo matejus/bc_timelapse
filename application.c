@@ -118,9 +118,11 @@ void camera_shot(void *param)
 void start_timelapse()
 {
     bc_led_pulse(&_led, LED_LONG_PULSE);
-    _tl_status = TL_ACTIVE_OFF;
     camera_focus(true);
     _task_id = bc_scheduler_register(camera_shot, NULL, bc_tick_get());
+
+    _tl_status = TL_ACTIVE_OFF;
+    bc_gpio_set_output(TL_PIN_SHOT, 1);
     bc_scheduler_plan_now(_task_id);
 }
 

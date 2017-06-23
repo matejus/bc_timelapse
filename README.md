@@ -13,3 +13,5 @@ when started:
 copy files to computer and create your own timelapse video
 
 BTW: do not save photos in RAW format :)
+
+<img src="WP_20170609_11_48_15_Pro1.jpg" width="80%"/>
